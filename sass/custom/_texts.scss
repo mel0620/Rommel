@@ -1,0 +1,61 @@
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.badge {
+    font-family: $font-primary;
+    font-size: 0.6875rem;
+    font-weight: $medium;
+
+    &.badge-outline-success {
+        background-color: transparent;
+        border: 1px solid darken(#38c172, 5%);
+        color: darken(#38c172, 5%);
+
+        &.md {
+            border: 2px solid darken(#38c172, 5%);
+            font-size: 0.875rem;
+            font-weight: $semi-bold;
+        }
+    }
+}
+
+.blue-text-color {
+    color: $blue !important;
+}
+
+.indigo-text-color {
+    color: $indigo !important;
+}
+
+.purple-text-color {
+    color: $purple !important;
+}
+
+.pink-text-color {
+    color: $pink !important;
+}
+
+.red-text-color {
+    color: $red !important;
+}
+
+.orange-text-color {
+    color: $orange !important;
+}
+
+.yellow-text-color {
+    color: $yellow !important;
+}
+
+.green-text-color {
+    color: $green !important;
+}
+
+.teal-text-color {
+    color: $teal !important;
+}
+
+.cyan-text-color {
+    color: $cyan !important;
+}

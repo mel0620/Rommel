@@ -1,0 +1,50 @@
+@mixin media($bp) {
+
+    @if $bp == desktop {
+        @media screen and (max-width: $desktop) {
+            @content;
+        }
+    }
+
+    @else if $bp == tab-lg {
+        @media screen and (max-width: $tab-lg) {
+            @content;
+        }
+    }
+
+    @else if $bp == tab-md {
+        @media screen and (max-width: $tab-md) {
+            @content;
+        }
+    }
+
+    @else if $bp == mob-lg {
+        @media screen and (max-width: $mob-lg) {
+            @content;
+        }
+    }
+
+    @else if $bp == mob-md {
+        @media screen and (max-width: $mob-md) {
+            @content;
+        }
+    }
+
+    @else if $bp == mob-sm {
+        @media screen and (max-width: $mob-sm) {
+            @content;
+        }
+    }
+
+    @else if $bp == mob-xs {
+        @media screen and (max-width: $mob-xs) {
+            @content;
+        }
+    }
+}
+
+@mixin media-set($set) {
+    @media screen and (max-width: $set) {
+        @content;
+    }
+}

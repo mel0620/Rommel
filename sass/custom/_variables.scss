@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
+
+
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
+
+//fontweights
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+//webcolors
+$primary-theme-color: #2387f5;
+$secondary-theme-color: #5043c9;
+$dark: #0c0c0c;
+$light: #555555;
+
+//breakpoints
+$desktop: 1200px;
+$tab-lg: 992px;
+$tab-md: 800px;
+$mob-lg: 600px;
+$mob-md: 500px;
+$mob-sm: 380px;
+$mob-xs: 321px;
+
+$min-width: 320px;
+$max-width: 1200px;
+$min-font: 16px;
+$max-font: 28px;

@@ -1,0 +1,47 @@
+.banner {
+    background-image: url('https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .img-holder {
+        overflow: hidden;
+        border-radius: 100%;
+        @include background-shadow(hover);
+        border: 5px solid rgba(#fff, .5);
+        .img {
+            background-image: url('/images/me.jpg');
+            background-size: cover;
+            background-position: position;
+            background-repeat: no-repeat;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            @include transition(.5s);
+        }
+
+        &:hover {
+            .img {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        padding: 1rem;
+        margin-top: 2rem;
+
+        a {
+            @include transition(.5s);
+            opacity: .9;
+
+            &:hover {
+                transform: translateY(-5px);
+                opacity: 1;
+            }
+        }
+    }
+}

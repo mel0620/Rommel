@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rommel Cuneta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="banner" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+        <div class="container">
+            <div class="d-flex align-items-center flex-column justify-content-center vh-100">
+                <div class="img-holder">
+                    <div class="img"></div>
+                </div>
+                <div class="social">
+                    <a href="javascript:"><img src="/images/facebook.svg" width="48" alt=""></a>
+                    <a href="javascript:"><img src="/images/instagram.svg" width="48" alt=""></a>
+                    <a href="javascript:"><img src="/images/twitter.svg" width="48" alt=""></a>
+                </div>
+                <!-- <div data-depth="0.3" class="display-1 text-center">Rommel Cuneta</div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me vh-100">
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="plugins/swiper/js/swiper.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="plugins/paroller/dist/jquery.paroller.min.js"></script>
+    <script src="plugins/wowjs/wow.min.js"></script>
+    <script src="plugins/match-height/jquery.matchHeight-min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            //Parallax in Home Banner
+            $('.banner').paroller();
+            //How it works parallax vector
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene, {
+                hoverOnly: true
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
