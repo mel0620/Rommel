@@ -50,11 +50,13 @@
         // @include background-shadow(non-hover);
         padding: 1rem;
 
-        .display-1 {
+        .name__display {
+            @include fluid-type($min-width, $max-width, 30px, 60px);
             color: #fff;
             -webkit-transition: all 0.5s;
             -moz-transition: all 0.5s;
             transition: all 0.5s;
+            text-transform: uppercase;
 
             &:hover {
                 // -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
@@ -63,7 +65,8 @@
             }
         }
 
-        h3 {
+        .name__caption {
+            @include fluid-type($min-width, $max-width, 16px, 30px);
             text-align: center;
             color: rgba(#fff, .7);
         }
